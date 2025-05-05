@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>About</title>
+</head>
+<body rightmargin="50" leftmargin="50" bgcolor="skyblue">
+<table align=left  cellspacing=20  cellpading=10 > 
+<tr border=5>
+<td><img src = "logo1.jpg" height="70" width="100"></td>
+<td><font size=8  color=black><a href="Home page.html">Home<a></font></td>
+<td><font size=8  color=black><a href="about.html">About</a></font></td>
+<td><font size=8  color=black>ContactUs</font></td>
+</tr>
+</table>
+
+<br><br><br><br><br><br>
+<hr>
+<br>
+
+</body>
+</html>

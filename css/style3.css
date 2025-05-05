@@ -1,0 +1,799 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+
+
+header{
+	background-color: black;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 130px;
+	height: auto;
+}
+
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+.main{
+    max-width: 1300px;
+}
+
+#main2{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#IMG_1, #IMG_2, #IMG_3, #IMG_4, #IMG_5, #IMG_6, #IMG_7, #IMG_8, #IMG_9, #IMG_10,
+#IMG_11, #IMG_12, #IMG_13, #IMG_14, #IMG_15, #IMG_16, #IMG_17, #IMG_18, #IMG_19,
+ #IMG_20 {
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    cursor: pointer;
+    display: block;
+    height: 299.25px;
+    letter-spacing: 0.5px;
+    object-fit: cover;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 201.969px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 100.984px 149.625px;
+    transform-origin: 100.984px 149.625px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    list-style: outside none none;
+    outline: rgb(32, 32, 32) none 0px;
+}/*#IMG_1*/
+
+#P_1, #P_3, #P_5, #P_7, #P_9, #P_11, #P_13, #P_15, #P_17, #P_19, #P_21, #P_23, #P_25,
+ #P_27, #P_29, #P_31, #P_33, #P_35, #P_37, #P_39 {
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 21px;
+    letter-spacing: 0.5px;
+    width: 201.969px;
+    perspective-origin: 100.984px 10.5px;
+    transform-origin: 100.984px 10.5px;
+    font: normal normal 400 normal 14px / 16.8px "Roboto Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    list-style: outside none none;
+    margin: 0px;
+    padding-top: 5px;
+}/*#P_1*/
+
+#P_2, #P_4, #P_6, #P_8, #P_10, #P_12, #P_14, #P_16, #P_18, #P_20, #P_22, #P_24, #P_26,
+ #P_28, #P_30, #P_32, #P_34, #P_36, #P_38, #P_40 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    height: 12px;
+    letter-spacing: 1px;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-transform: uppercase;
+    width: 201.969px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 100.984px 6px;
+    transform-origin: 100.984px 6px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 12px "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    list-style: outside none none;
+    margin: 0px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding-top: 5px;
+}/*#P_1*/
+
+#P_24 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    height: 12px;
+    letter-spacing: 1px;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-transform: uppercase;
+    width: 201.969px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 100.984px 6px;
+    transform-origin: 100.984px 6px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 12px "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    list-style: outside none none;
+    margin: 0px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding-top: 20px;
+}/*#P_1*/
+
+.smffh{
+	padding-left: 180px;
+}
+
+.aiw, .cac, .imm{
+	padding-left: 180px;
+	padding-top: 40px;
+}
+
+ .dp{
+	padding-left: 150px;
+	padding-top: 40px;
+	padding-bottom: 200px;
+}
+.an, .am, .amw{
+	padding-left: 50px;
+}
+
+.aau, .bp, .cmm, .dst, .gog, .gog2, .tih, .ta, .tdw{
+	padding-top: 40px;
+	padding-left: 50px;
+}
+
+.dpo, .lgn, .dp2{
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-bottom: 200px;
+}
+
+.footer{
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    height: 400px;
+    letter-spacing: 0.5px;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 100%;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 397px 313.266px;
+    transform-origin: 397px 313.273px;
+    background: rgb(21, 21, 21) none repeat scroll 0% 0% ;
+    border: 0px none rgb(32, 32, 32);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(32, 32, 32) none 0px;
+    padding: 10px 0px 28px;
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}/*footer*/
+
+.footer .footer-content{
+display: flex;
+height: 250px;
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+}
+
+.footer .footer-content .footer-section .about .nav_8{
+     box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    height: 150.547px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-align: left;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 297px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 148.5px 75.2656px;
+    transform-origin: 148.5px 75.2734px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    flex: 1 1 0%;
+    font: normal normal 800 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(32, 32, 32) none 0px;
+}/*#NAV_8*/
+
+#UL_9 {
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    height: 200px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 210px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 148.5px 69.5px;
+    transform-origin: 148.5px 69.5px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    font: normal normal 800 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(32, 32, 32) none 0px;
+    padding: 65px;
+}/*#UL_9*/
+
+#LI_10, #LI_12 {
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    display: block;
+    height: 20px;
+    letter-spacing: 1px;
+    text-decoration: none solid rgb(32, 32, 32);
+    text-transform: uppercase;
+    width: 297px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 148.5px 8px;
+    transform-origin: 148.5px 8px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    font: normal normal 700 normal 13px / 16.9px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+   font-size: 17px;
+   list-style: none outside none;
+    margin: 0px 0px 25px;
+    outline: rgb(32, 32, 32) none 0px;
+}/*#LI_10, #LI_12, #LI_14*/
+
+.footer .footer-content .footer-section .links .nav_18{
+box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    height: 150.547px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-align: left;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 297px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 148.5px 75.2656px;
+    transform-origin: 148.5px 75.2734px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    flex: 1 1 0%;
+    font: normal normal 800 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(32, 32, 32) none 0px;
+}/*#NAV_8*/ 
+ 
+ #UL_19{
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    height: 200px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 300px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 148.5px 69.5px;
+    transform-origin: 148.5px 69.5px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    font: normal normal 800 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    outline: rgb(32, 32, 32) none 0px;
+    padding: 65px;
+}/*#UL_19*/
+
+#LI_20, #LI_22 {
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    display: block;
+    height: 20px;
+    letter-spacing: 1px;
+    text-decoration: none solid rgb(32, 32, 32);
+    text-transform: uppercase;
+    width: 297px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 148.5px 8px;
+    transform-origin: 148.5px 8px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    font: normal normal 700 normal 13px / 16.9px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+   font-size: 17px;
+   list-style: none outside none;
+    margin: 0px 0px 25px;
+    outline: rgb(32, 32, 32) none 0px;
+}
+
+.footer .footer-content .footer-section .insider{
+}
+
+#nav_26{
+box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    display: flex;
+    height: 77px;
+    letter-spacing: 0.5px;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 734px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 367px 38.5px;
+    transform-origin: 367px 38.5px;
+    caret-color: rgb(32, 32, 32);
+    border-top: 0px none rgb(32, 32, 32);
+    border-right: 0px none rgb(32, 32, 32);
+    border-bottom: 1px solid rgb(40, 40, 40);
+    border-left: 0px none rgb(32, 32, 32);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 0px;
+    outline: rgb(32, 32, 32) none 0px;
+    padding: 0px 0px 26px;
+}
+
+#DIV_127{
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    height: 50px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 267px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 183.5px 25px;
+    transform-origin: 183.5px 25px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(32, 32, 32) none 0px;
+    padding: 0px 30px 0px 0px;
+}/*#DIV_27*/
+
+#A_28{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 50px;
+    letter-spacing: 0.5px;
+    text-decoration: none solid rgb(255, 255, 255);
+    width: 337px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 168.5px 25px;
+    transform-origin: 168.5px 25px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#A_28*/
+
+#DIV_129{
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    left: 0px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    top: 0px;
+    width: 69.5156px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 34.75px 25px;
+    transform-origin: 34.7578px 25px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_29*/
+
+#FIGURE_30{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 0px;
+    letter-spacing: 0.5px;
+    text-decoration: none solid rgb(255, 255, 255);
+    width: 69.5156px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 34.75px 0px;
+    transform-origin: 34.7578px 0px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+}/*#FIGURE_30*/
+
+#IMG_31{
+    bottom: 18.7188px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 31.2813px;
+    left: 0px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    right: 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    top: 0px;
+    width: 69.5156px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 34.75px 15.6406px;
+    transform-origin: 34.7578px 15.6406px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_31*/
+
+#DIV_132{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(255, 255, 255);
+    width: 267.484px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 133.734px 25px;
+    transform-origin: 133.742px 25px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 0px 0px 30px;
+}/*#DIV_32*/
+
+#H4_33{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    width: 237.484px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 118.734px 7px;
+    transform-origin: 118.742px 7px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 14px "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#H4_33*/
+
+#P_134{
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    height: 36px;
+    letter-spacing: 0.5px;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 237.484px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 118.734px 18px;
+    transform-origin: 118.742px 18px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 14px / 18.2px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#P_34*/
+   
+.footer .footer-content .footer-section .social {}
+#nav_43{
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    height: 116px;
+    letter-spacing: 0.5px;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 734px;
+    column-rule-color: rgb(32, 32, 32);
+    perspective-origin: 367px 58px;
+    transform-origin: 367px 58px;
+    caret-color: rgb(32, 32, 32);
+    border-top: 0px none rgb(32, 32, 32);
+    border-right: 0px none rgb(32, 32, 32);
+    border-bottom: 1px solid rgb(40, 40, 40);
+    border-left: 0px none rgb(32, 32, 32);
+    font: normal normal 400 normal 16px / 20.8px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 40px;
+    outline: rgb(32, 32, 32) none 0px;
+    padding: 0px 0px 40px;
+}/*#NAV_43*/
+
+#H4_44 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    width: 150px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 367px 7px;
+    transform-origin: 367px 7px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 14px "RobotoCondensed Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    outline: rgb(255, 255, 255) none 0;
+    padding-bottom: 30px;
+}/*#H4_44*/
+}
+
+.s-m{
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.s-m a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #2c3e50;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+.s-m a:hover{
+    background: #e67e22;
+}
+
+.s-m a i{
+    transition: 0.4s all;
+}
+
+.s-m a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+}
+
+
+
+.middle .nav_1{
+    box-sizing: border-box;
+    color: rgb(32, 32, 32);
+    display: flex;
+    height: 48px;
+    letter-spacing: 0.5px;
+    max-width: 1240px;
+    text-decoration: none solid rgb(32, 32, 32);
+    width: 794px;
+    column-rule-color: rgb(32, 32, 32);
+    justify-content: center;
+    perspective-origin: 397px 24px;
+    transform-origin: 397px 24px;
+    caret-color: rgb(32, 32, 32);
+    border: 0px none rgb(32, 32, 32);
+    flex-flow: row wrap;
+    font: normal normal 400 normal 16px / 16px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    outline: rgb(32, 32, 32) none 0px;
+    overflow: hidden;
+    padding: 0px 30px;
+}/*#NAV_1*/
+
+#A_2 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 14px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 106.984px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 53.4844px 7px;
+    transform-origin: 53.4922px 7px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 14.4px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 15px;
+}/*#A_2*/
+
+
+
+#A_3 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 14px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 110.859px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 55.4219px 7px;
+    transform-origin: 55.4297px 7px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 14.4px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 15px;
+}/*#A_3*/
+
+
+
+#A_4 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 14px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 202.063px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 101.031px 7px;
+    transform-origin: 101.031px 7px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 14.4px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 15px;
+}/*#A_4*/
+
+
+#A_5 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 14px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 210.609px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 105.297px 7px;
+    transform-origin: 105.305px 7px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 14.4px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 15px;
+}/*#A_5*/
+
+
+
+#A_6 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 14px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 141.297px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 70.6406px 7px;
+    transform-origin: 70.6484px 7px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 14.4px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 15px;
+}/*#A_6*/
+
+
+
+#A_7 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 14px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 139.953px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 69.9688px 7px;
+    transform-origin: 69.9766px 7px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 14.4px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 15px;
+}/*#A_7*/
+
+
+
+#A_8 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 14px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 152px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 76px 7px;
+    transform-origin: 76px 7px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 14.4px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 15px;
+}/*#A_8*/
+
+
+
+#SPAN_9 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 14px;
+    letter-spacing: 0.5px;
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    width: 121.969px;
+    column-rule-color: rgb(153, 153, 153);
+    perspective-origin: 60.9844px 7px;
+    transform-origin: 60.9844px 7px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 12px / 14.4px Roboto, "Trebuchet MS", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 15px;
+}/*#SPAN_9*/
+
+.footer-bottom{
+    background: rgb(32, 32, 32);
+    color: #d3d3d3;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
