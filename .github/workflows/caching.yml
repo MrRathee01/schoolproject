@@ -1,30 +1,25 @@
 name: CI Caching Workflow
 
-on: [push, workflow_dispatch]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   cache-job:
     runs-on: ubuntu-latest
-    
     steps:
-      # 1. Initialize the workspace (Often required for other actions to work)
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Create a dummy file to cache
-      - name: Create dummy dependencies
-        run: |
-          mkdir -p my-deps
-          echo "Sample data" > my-deps/data.txt
+      - name: Create file to cache
+        run: echo "dummy data" > my-cache-file.txt
 
-      # 3. Implement the cache action with the required key
       - name: Cache dependencies
-        id: deps-cache
+        id: my-cache
         uses: actions/cache@v4
         with:
-          path: my-deps
+          path: my-cache-file.txt
           key: cache-a9027d9
 
-      # 4. The exact required step name
       - name: prime-cache-a9027d9
-        run: echo "Cache hit result: ${{ steps.deps-cache.outputs.cache-hit }}"
+        run: echo "${{ steps.my-cache.outputs.cache-hit }}"
