@@ -1,0 +1,14 @@
+name: Validation Action
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # This allows you to trigger it manually!
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2004420@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
