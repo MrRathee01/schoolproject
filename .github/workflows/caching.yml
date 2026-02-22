@@ -1,0 +1,27 @@
+name: CI Caching Workflow
+
+# Triggers on push, but also allows manual triggering to guarantee a recent run
+on: [push, workflow_dispatch]
+
+jobs:
+  cache-job:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Create a dummy directory to simulate dependencies so the cache has something to save
+      - name: Create dummy dependencies
+        run: |
+          mkdir -p my-deps
+          echo "Sample dependency data" > my-deps/data.txt
+
+      # 2. Implement the cache action with the required key
+      - name: Cache dependencies
+        id: deps-cache
+        uses: actions/cache@v4
+        with:
+          path: my-deps
+          key: cache-a9027d9
+
+      # 3. The exact required step name that echoes the hit/miss result
+      - name: prime-cache-a9027d9
+        run: echo "Cache hit result: ${{ steps.deps-cache.outputs.cache-hit }}"
